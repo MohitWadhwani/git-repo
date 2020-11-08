@@ -3,7 +3,7 @@ entries:
   gitrepotest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-08T17:54:54.0437118+05:30"
+    created: "2020-11-08T18:06:22.5077731+05:30"
     description: A Git Helm Chart Demo
     digest: 2812a0f8fe7c3cec8bcdb2051c0ec408bb603731d34fa0cd707c1d584c426e60
     name: gitrepotest
@@ -14,7 +14,7 @@ entries:
   gitrepotest2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-08T17:54:54.0449707+05:30"
+    created: "2020-11-08T18:06:22.5090535+05:30"
     description: A Helm chart for Kubernetes
     digest: aec3f41c7e3447840bb1e5c6a85ee4d51e2ca3a964fd0411be7ac0f1f04f5cba
     name: gitrepotest2
@@ -25,7 +25,17 @@ entries:
   upgrade-demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-08T17:54:54.0469757+05:30"
+    created: "2020-11-08T18:06:22.5269183+05:30"
+    description: A Helm chart updates for Kubernetes
+    digest: c575f8d73ee46fe74981b7ad0e2e9553dc813c16b70d5d1d025a4e53152e5e93
+    name: upgrade-demo
+    type: application
+    urls:
+    - upgrade-demo-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-11-08T18:06:22.525211+05:30"
     description: A Helm chart for Kubernetes
     digest: 5e26efcf16d815369070206ffe5ba1af3eaad7a86570891099402a9f79274f77
     name: upgrade-demo
@@ -33,4 +43,4 @@ entries:
     urls:
     - upgrade-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-08T17:54:54.0402475+05:30"
+generated: "2020-11-08T18:06:22.4981504+05:30"
